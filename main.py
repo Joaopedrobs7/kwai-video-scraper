@@ -41,7 +41,7 @@ chrome_options.add_argument('--window-size=1920,1080')
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 # URL da conta do Kwai
-url = 'https://www.kwai.com/@cenastopsnarra'
+url = 'url-da-conta'
 driver.get(url)
 
 # Aguarde um tempo para a página carregar
