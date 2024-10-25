@@ -97,7 +97,7 @@ try:
         driver.execute_script(f"window.scrollBy(0, {scroll_increment});")
         print(f"Rolando para posição: {scroll_position}")
         driver.save_screenshot('screenie.png')
-        time.sleep(5)  # Tempo para novos vídeos carregarem
+        time.sleep(2)  # Tempo para novos vídeos carregarem
 
         # Verifique se novos vídeos foram carregados
         new_video_contents = driver.find_elements(By.CLASS_NAME, 'video-content')
